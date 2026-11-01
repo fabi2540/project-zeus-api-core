@@ -1,0 +1,32 @@
+{
+  "apiVersion": "4.0",
+  "projectId": "GLOBAL-INFRASTRUCTURE-AUDIT",
+  "timestampUTC": "2026-10-31T00:00:00Z",
+  "meshConfiguration": {
+    "type": "IcosahedralCortical",
+    "activeNodes": 1250,
+    "coordinateSystem": "EPSG:32719"
+  },
+  "forcingInput": {
+    "precipitationIntensityMMH": 42.5,
+    "surfacePondingActive": true,
+    "atmosphericTemperatureC": 14.2
+  },
+  "sensorStream": [
+    {
+      "nodeId": "N-001",
+      "coordinates": { "x": 345600.25, "y": 6345100.80, "z": 2450.15 },
+      "hydraulicData": {
+        "suctionPressureKPA": -12.4,
+        "poreWaterPressureKPA": 145.8
+      },
+      "mechanicalDeformation": {
+        "displacementVectorMM": { "dx": 4.2, "dy": -2.1, "dz": -15.8 },
+        "infinitesimalStrainTensor": {
+          "epsXX": 0.0012, "epsYY": 0.0008, "epsZZ": -0.0034,
+          "epsXY": 0.0004, "epsYZ": -0.0011, "epsZX": 0.0002
+        }
+      }
+    }
+  ]
+}

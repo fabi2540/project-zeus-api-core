@@ -1,0 +1,25 @@
+{
+  "apiVersion": "4.0",
+  "status": "CRITICAL_ALERT",
+  "processingTimeMS": 14.8,
+  "instabilityIndicators": {
+    "rheologicalPhaseTransition": true,
+    "hillDruckerIndicator": -0.0045,
+    "minimumAcousticTensorEigenvalue": -0.124,
+    "lossOfEllipticityDetected": true
+  },
+  "geometricDistortion": {
+    "spatialNonOrthogonalityIndex": 0.78,
+    "basalShearLocalization": true,
+    "criticalFailurePlaneNormal": { "nx": 0.12, "ny": -0.85, "nz": 0.51 }
+  },
+  "sovereignOperationalWindow": {
+    "bifurcationPointReached": true,
+    "timeToCollapseHoursEstimate": 14.5,
+    "confidenceIntervalPercentage": 98.4
+  },
+  "automatedMitigationTrigger": {
+    "webhookDispatched": true,
+    "actionRequired": "IMMEDIATE_OPERATIONAL_HALT_AND_CIVIL_EVACUATION"
+  }
+}
